@@ -1,0 +1,132 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(16, 21, 46);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+.container {
+  width: 100%;
+  flex: 1;
+  background-color: rgb(16, 21, 46);
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+}
+
+header {
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(16, 21, 46);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+  margin-top: 10px;
+  display: flex;
+  align-items: start;
+}
+header h1 {
+  display: inline;
+  padding-bottom: 0px;
+  padding-left: 4px;
+  color: white;
+}
+
+header img {
+  display: inline;
+  width: 50px;
+  height: 50px;
+  border-radius: 20%;
+}
+
+header nav .listemenu {
+  height: 100%;
+  align-items: center;
+}
+
+header nav .listemenu div {
+  margin: 10px;
+  font-weight: bold;
+  text-decoration: underline;
+  color: white;
+}
+
+.contact {
+  background-color: rgb(255, 127, 42);
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.Homepage {
+  background-color: rgb(16, 21, 46);
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  display: none;
+}
+
+.Homepage div h1 {
+  font-size: 60px;
+  padding: 10px;
+  color: white;
+}
+.Homepage div p {
+  padding: 10px;
+  color: white;
+}
+
+.Homepage div .homebutton div {
+  display: inline;
+  margin: 10px;
+  font-weight: bold;
+  color: white;
+}
+#button-project {
+  color: rgb(255, 127, 42);
+}
+
+.information {
+  margin: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+.information span {
+  color: white;
+}
+.information span div {
+  font-weight: bolder;
+  font-size: 30px;
+  color: rgb(255, 196, 0);
+}
+
+.Homepage div img {
+  width: 100%;
+}
+
+.images {
+  position: relative;
+  width: 100%;
+}
+
+.Homepage div .img1 {
+  z-index: 3;
+  position: absolute;
+  height: 50%;
+  top: 0px;
+  width: 75%;
+  right: 0;
+}
+.Homepage div .img2 {
+  z-index: 5;
+  position: relative;
+  height: 150px;
+  top: 200px;
+  width: 170px;
+  right: 0;
+  border: 5px solid rgb(16, 21, 46);
+}
