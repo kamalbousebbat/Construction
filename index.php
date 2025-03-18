@@ -281,6 +281,6 @@
         </div>
       </footer>
     </div>
-    <script src="mai.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>
